@@ -65,20 +65,19 @@ function playRound(playerChoice, computerChoice){
     }
 }
 
-function game(){
-    for (let i = 0; i<5; i++){
-        playerInput = prompt("enter rock paper or scissors");
-        playerChoice = playerInput.toLowerCase();
-        console.log(playRound(playerChoice, computerChoice));
-        if (gameResult === "win"){
-            alert("good job! your score is "+ playerScore + " and the computer's score is "+ computerScore)
-        }
-        else if (gameResult === "loss"){
-            alert("oh no... the computer's score is now " + computerScore + " and yours is still " + playerScore)
-        }
-        else {
-            alert("it's a tie. try again!")
-        }
-        }
-}
-console.log(game());
+// function game(){
+//     for (let i = 0; i<5; i++){
+//         playerInput = prompt("enter rock paper or scissors");
+//         playerChoice = playerInput.toLowerCase();
+//         console.log(playRound(playerChoice, computerChoice));
+//         if (gameResult === "win"){
+//             alert("good job! your score is "+ playerScore + " and the computer's score is "+ computerScore)
+//         }
+//         else if (gameResult === "loss"){
+//             alert("oh no... the computer's score is now " + computerScore + " and yours is still " + playerScore)
+//         }
+//         else {
+//             alert("it's a tie. try again!")
+//         }
+//         }
+// }

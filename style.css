@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+div.choices{
+    display: flex;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+}
+
+div.choices button{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    margin: 2em;
+}
+
+.rock{
+    background-color:silver;
+}
+.paper{
+    background-color: aqua;
+}
+.scissors{
+    background-color:crimson;
+}
+
+div.choices button:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p.gameScore{
+    word-spacing: 1em;
+}
+
+span{
+    background-color: white;
+    display: inline-block;
+    padding: 0 5px;
+    color:crimson;
+}
