@@ -54,3 +54,7 @@ span{
     padding: 0 5px;
     color:crimson;
 }
+
+span.playerScore{
+    color: #228b22;
+}
